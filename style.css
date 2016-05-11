@@ -1,3 +1,19 @@
-*{
+
+h1 {
   color: blue;
+}
+
+body {
+  background-image: url("https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/521640_10151579896292249_751706476_n.jpg?oh=9998d90aea56f59c4e9f4f59193b789f&oe=57B02D6E");
+  background-size: 100% 100%;
+}
+
+p {
+  font-weight: bold;
+  color: red
+}
+
+ul {
+  color: red;
+  font-weight: bold;
 }
