@@ -51,12 +51,29 @@ else if (response3 === wrong3 || response3 === wrong3[0]){
 }
 else {
   alert('Big waste of my time, but I\'m still getting paid!');
+  console.log(userName + ' responded ' + response3 + '.');
 }
 
-var response4 = prompt(userName + ' Are you ready to end this game?').toLowerCase();
+var response4 = prompt(userName + ', Are you getting bored yet?').toLowerCase();
 var answer4 = 'yes';
+var wrong4 = 'no';
 
-if (response4 === answer4 || response4 === answer4[0]) {
+if(response4 === answer4 || response4 === answer4[0]){
+  alert('Well, it\'s almost over ' + userName + '!');
+}
+
+else if (response4 === wrong4 || response4 === wrong4[0]){
+  alert('That\'s cool ' + userName + ', but it\'s getting late!');
+}
+else {
+  alert('C\'mon ' + userName + ', at least answer the questions!');
+  console.log(userName + ' answered ' + response4);
+}
+
+var response5 = prompt(userName + ' Are you ready to end this game?').toLowerCase();
+var answer5 = 'yes';
+
+if (response5 === answer5 || response5 === answer5[0]) {
   alert('Good, ' + userName + ', let\'s go get a beer!');
 }
 
@@ -64,4 +81,5 @@ else {    /*last statement normal if else*/
   alert('Too bad, I\'m going to get a beer!');
 
   console.log('I don\'t really care what he answers at this point...Miller time!');
+
 };
