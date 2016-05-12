@@ -115,19 +115,21 @@ while(x < 5){
 
   }
 
-  var cities = ['Chicago', 'Providence', 'New York', 'New Bedford', 'Warrensberg'];
+  var cities = [];
   var i = 1;
 
   while(i < 7) {
     var response7 = prompt(userName + ' What cities have I lived in before?');
-    if (response7 === cities) {
-      alert('Great job ' + userName + '!  Your\'re pretty sharp!');
-    }
+      if (response7 === 'Chicago', 'Providence', 'New York', 'New Bedford', 'Warrensberg')
+      {
+        alert('Great job ' + userName + '!  Your\'re pretty sharp!');
+        i=8;
+      }
 
-    else {
-      prompt('Sorry ' + userName + ', I never lived there.  Try again.');
-      console.log('Wrong answer' + i++);
-      i++;
-    }
+      else {
+        prompt('Sorry ' + userName + ', I never lived there.  Try again.');
+        console.log('Wrong answer' + i++);
+        i++;
+      }
   }
-};
+ };
