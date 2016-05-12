@@ -14,7 +14,7 @@ h1 {
   image-orientation: fixed;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  margin: auto;
+  margin: 0 auto;
   padding: 0;
   border: 0;
   margin: 0;
@@ -24,7 +24,7 @@ h1 {
 p {
   font-weight: bold;
   color: red;
-  width: 800px;
+  max-width: 800px;
   margin: auto;
   padding: 40px;
 }
@@ -33,7 +33,7 @@ p {
   background-color: #c0c0c0;
   padding: 0;
   border: 0;
-  margin: 0;
+  margin: 0 auto;;
 }
 
 
@@ -41,13 +41,13 @@ p {
 ul {
   color: red;
   font-weight: bold;
-  width: 300px;
+  max-width: 300px;
   margin: auto;
 }
 
 ol {
   color: #600000;
   font-weight: bold;
-  width: 700px;
+  max-width: 700px;
   margin: auto;
 }
