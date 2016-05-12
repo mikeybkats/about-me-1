@@ -113,6 +113,21 @@ while(x < 5){
     console.log('Incorrect answer total ' + x++);
     x++;
 
+  }
 
+  var cities = ['Chicago', 'Providence', 'New York', 'New Bedford', 'Warrensberg'];
+  var i = 1;
+
+  while(i < 7) {
+    var response7 = prompt(userName + ' What cities have I lived in before?');
+    if (response7 === cities) {
+      alert('Great job ' + userName + '!  Your\'re pretty sharp!');
+    }
+
+    else {
+      prompt('Sorry ' + userName + ', I never lived there.  Try again.');
+      console.log('Wrong answer' + i++);
+      i++;
+    }
   }
 };
