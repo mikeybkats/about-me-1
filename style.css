@@ -1,19 +1,34 @@
 
 h1 {
   color: blue;
-}
+  text-align: center;
+};
 
 body {
-  background-image: url("headingHome.jpg");
+  background-image: url("/home/jp/codefellows/201/about-me");
   background-size: 100% 100%;
-}
+};
+
+
+
+#opening {
+  color: black;
+  text-align: center;
+};
 
 p {
   font-weight: bold;
   color: red
 }
 
+
+
 ul {
   color: red;
+  font-weight: bold;
+}
+
+ol {
+  color: #0000FF;
   font-weight: bold;
 }
